@@ -1,0 +1,13 @@
+all:
+  hosts:
+    host1:
+    host2:
+  children:
+    web_servers:
+      hosts:
+        web1:
+        web2:
+    db_servers:
+      hosts:
+        db1:
+        db2:
