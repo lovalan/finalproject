@@ -1,0 +1,28 @@
+{
+  "name": "mon-site-statique",
+  "version": "1.0.0",
+  "description": "ceci est le package.json  de mon projet mon-site-static",
+  "main": "script.js",
+  "scripts": {
+    "test": "\"test\": \"node test.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovalan/finalproject.git"
+  },
+  "keywords": [
+    "\"keywords\":",
+    "[\"node.js\"",
+    "\"application",
+    "web\"",
+    "\"express\"",
+    "\"mongodb\"",
+    "\"exemple\"]"
+  ],
+  "author": "Lova Landry Randriamampionona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovalan/finalproject/issues"
+  },
+  "homepage": "https://github.com/lovalan/finalproject#readme"
+}
