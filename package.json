@@ -4,7 +4,7 @@
   "description": "ceci est le package.json  de mon projet mon-site-static",
   "main": "script.js",
   "scripts": {
-    "test": "\"test\": \"node test.js\""
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
