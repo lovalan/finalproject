@@ -1,13 +1,9 @@
 all:
   hosts:
-    host1:
-    host2:
-  children:
-    web_servers:
-      hosts:
-        web1:
-        web2:
-    db_servers:
-      hosts:
-        db1:
-        db2:
+    server1:
+      ansible_host: 192.168.1.101
+    server2:
+      ansible_host: 192.168.1.102
+  vars:
+    ansible_user: myuser
+    ansible_ssh_private_key_file: /path/to/private/key
